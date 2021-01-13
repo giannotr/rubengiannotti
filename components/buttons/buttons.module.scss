@@ -1,0 +1,138 @@
+@keyframes button-hover {
+	0% {
+		bottom: 14px;
+		left: 7.5%;
+		opacity: .75;
+		width: 85%;
+		height: 5%;
+	}
+
+	25% {
+		bottom: 0;
+		left: 0;
+		opacity: .75;
+		width: 100%;
+		height: 5%;
+	}
+
+	50% {
+		bottom: 0;
+		left: 0;
+		opacity: .5;
+		width: 100%;
+		height: 5%;
+	}
+
+	75% {
+		bottom: 0;
+		left: 0;
+		opacity: .5;
+		width: 100%;
+		height: 100%;
+	}
+
+	100% {
+		bottom: 0;
+		left: 0;
+		opacity: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@keyframes flash {
+	0%{
+		opacity: 1;
+	}
+
+	40% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.button-wrapper {
+	display: flex;
+	width: auto;
+}
+
+.button-container {
+	position: relative;
+	margin: 30px;
+	padding: 15px;
+	background: transparent;
+	border: 1.2px solid;
+	border-radius: 0;
+	border-color: transparent;
+	color: #ddd;
+	font-family: 'Dosis';
+	font-size: 1rem;
+	cursor: pointer;
+	outline: 0 !important;
+	z-index: 1;
+	transition: border-color .125s ease-out;
+
+	a {
+		padding-top: inherit;
+		padding-bottom: inherit;
+		padding-right: 0;
+		padding-left: 0;
+		text-decoration: none;
+		color: inherit;
+	}
+
+	span {
+		pointer-events: none;
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: 14px;
+		left: 7.5%;
+		width: 85%;
+		height: 5%;
+		background: #00ffea;
+		opacity: .75;
+		outline: 0 !important;
+		z-index: -1;
+	}
+
+	&:hover {
+		border-color: #ddd;
+		transition: all .4s ease .5s;
+		opacity: 1;
+
+		span {
+			animation: flash .1s ease;
+		}
+
+		&::after {
+			animation: button-hover .67s ease-in forwards;
+		}
+	}
+}
+
+.chevron-container {
+	svg {
+		fill: #fff;
+		transition: fill .25s;
+	
+		&:hover {
+			fill: #999;
+		}
+	}
+}
+
+.chevron-container__left {
+	@extend .chevron-container;
+	transform: rotate(180deg);
+}
+
+.chevron-container__right {
+	@extend .chevron-container;
+	transform: rotate(0deg);
+}

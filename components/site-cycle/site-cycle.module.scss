@@ -1,0 +1,111 @@
+$slide-display-change-time: 320ms;
+
+:export {
+  slideDisplayChangeTime: $slide-display-change-time;
+}
+
+.site-cycle-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 20px;
+	right: 0;
+	width: 125px;
+	padding: 20px 0;
+}
+
+.shift-loader {
+	@extend .site-cycle-container;
+	transform: translate(0, -34px);
+}
+
+%arrow {
+	display: flex;
+	place-items: center;
+	justify-content: center;
+
+	:global {
+		svg {
+			fill: #fff;
+			transition: fill .2s;
+	
+			&:hover {
+				fill: #777;
+			}
+		}
+	}
+}
+
+.arrow__up {
+	@extend %arrow;
+	transform: rotate(-90deg);
+}
+
+.arrow__down {
+	@extend %arrow;
+	transform: rotate(90deg);
+}
+
+@keyframes current-slide-animation {
+	0% {
+		opacity: 0;
+		filter: blur(0);
+	}
+
+	50% {
+		opacity: .2;
+		color: #c72c41;
+		filter: blur(10px);
+	}
+
+	70% {
+		filter: blur(2px);
+	}
+
+	90% {
+		filter: blur(5px);
+	}
+
+	100% {
+		opacity: 1;
+		color: #ddd;
+		filter: blur(0);
+	}
+}
+
+%current {
+	font-size: 1.8rem;
+	font-weight: 650;
+	opacity: 1;
+}
+
+.display {
+	position: relative;
+	margin: 14px;
+	text-align: right;
+	color: #bbb;
+}
+
+.display__current {
+	@extend %current;
+	position: absolute;
+	color: #ddd;
+}
+
+.display__current--animated {
+	@extend .display__current;
+	animation: current-slide-animation $slide-display-change-time ease-in;
+}
+
+.placeholder-invisible {
+	@extend %current;
+	color: transparent;
+	margin-right: 2px;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}

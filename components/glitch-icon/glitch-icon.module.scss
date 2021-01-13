@@ -1,0 +1,59 @@
+@mixin hover-animation($color-start, $color-glitch, $iterations, $duration) {
+	@keyframes glitch {
+		0% {
+			fill: $color-start;
+			transform: skew(0deg);
+		}
+		18% {
+			fill: $color-start;
+			transform: skew(-8deg);
+		}
+		19% {
+			fill: $color-glitch;
+			transform: skew(9deg);
+		}
+		22% {
+			fill: $color-start;
+			transform: skew(1deg);
+		}
+		30% {
+			fill: $color-start;
+			transform: skew(-18deg);
+		}
+		35% {
+			fill: $color-glitch;
+			transform: skew(15deg);
+		}
+		40% {
+			fill: $color-start;
+			transform: skew(-3deg);
+		}
+		100% {
+			fill: $color-glitch;
+			transform: skew(0deg);
+		}
+	}
+
+	animation-name: glitch;
+	animation-duration: $duration;
+	animation-iteration-count: $iterations;
+	animation-fill-mode: forwards;
+	display: block;
+	transform: skew(0deg);
+}
+
+.glitch-icon {
+	cursor: pointer;
+	padding: 20px;
+
+	:global {
+		svg {
+			display: flex;
+			place-items: center;
+		}
+	}
+
+	&:hover :global(svg) {
+		@include hover-animation(#fff, #ff009d, 1, .5s);
+	}
+}

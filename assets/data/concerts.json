@@ -1,0 +1,1417 @@
+[
+  {
+    "datetime": "2020-12-04T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-11-17T21:00:00+02:00",
+    "artist": "Daddy Longlegs",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-11-16T21:00:00+02:00",
+    "artist": "Daddy Longlegs",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-11-06T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-10-10T17:00:00+02:00",
+    "artist": "volxroxx",
+    "venue": "Locanda 12 Apostoli",
+    "address": "Berlin",
+    "link": "https://www.diewuidnwiesn.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-10-09T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2020-09-08T21:00:00+02:00",
+    "artist": "Berlin Cool Jazz Project",
+    "venue": "b-flat Berlin",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-09-02T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2020-08-14T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2020-07-10T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-06-05T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-05-01T20:45:00+02:00",
+    "artist": "Ephemere",
+    "venue": "Karneval der Kulturen",
+    "address": "Berlin",
+    "link": "https://www.karneval.berlin/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-05-01T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-04-03T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-03-20T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2020-03-08T18:00:00+02:00",
+    "artist": "JuKO",
+    "venue": "CoMA Fest @AckerStadtPalast",
+    "address": "Berlin",
+    "link": "https://ackerstadtpalast.de/kontakt"
+  },
+  {
+    "datetime": "2020-03-02T21:00:00+02:00",
+    "artist": "Daddy Longlegs",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2020-02-28T20:00:00+02:00",
+    "artist": "Daddy Longlegs",
+    "venue": "Maschinenhaus",
+    "address": "Berlin",
+    "link": "https://www.kesselhaus.net/"
+  },
+  {
+    "datetime": "2020-02-07T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2020-01-06T21:00:00+02:00",
+    "artist": "Omniversal Earkestra",
+    "venue": "Kultstätte Keller",
+    "address": "Berlin",
+    "link": "https://www.kellerkultur.net/"
+  },
+  {
+    "datetime": "2020-01-03T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2019-12-06T20:45:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2019-12-05T21:00:00+02:00",
+    "artist": "ruben giannotti_jazz orchestra",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2019-12-04T22:00:00+02:00",
+    "artist": "ruben giannotti_jazz orchestra",
+    "venue": "Bar Tausend",
+    "address": "Berlin",
+    "link": "https://tausendberin.com"
+  },
+  {
+    "datetime": "2019-12-03T19:45:00+02:00",
+    "artist": "ruben giannotti_jazz orchestra",
+    "venue": "Musikbrauerei",
+    "address": "Berlin",
+    "link": "https://www.facebook.com/Musikbrauerei"
+  },
+  {
+    "datetime": "2019-12-01T16:00:00+02:00",
+    "artist": "Rachelina und die Maccheronies",
+    "venue": "MEK",
+    "address": "Berlin",
+    "link": "https://www.smb.museum/museen-einrichtungen/museum-europaeischer-kulturen/besuch-planen/adresse/"
+  },
+  {
+    "datetime": "2019-11-30T18:30:00+02:00",
+    "artist": "Rachelina und die Maccheronies",
+    "venue": "MEK",
+    "address": "Berlin",
+    "link": "https://www.smb.museum/museen-einrichtungen/museum-europaeischer-kulturen/besuch-planen/adresse/"
+  },
+  {
+    "datetime": "2019-11-25T21:00:00+02:00",
+    "artist": "b-flat Jazz Orchestra",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2019-11-22T20:30:00+02:00",
+    "artist": "The Rolling Applzz",
+    "venue": "Eierschale",
+    "address": "Berlin",
+    "link": "https://www.berliner-eierschale.de/"
+  },
+  {
+    "datetime": "2019-11-20T19:00:00+02:00",
+    "artist": "LIO",
+    "venue": "Studiosaal HfM 'Hanns Eisler'",
+    "address": "Berlin",
+    "link": "http://www.hfm-berlin.de/veranstaltungen/besucherinformationen/"
+  },
+  {
+    "datetime": "2019-11-06T19:00:00+02:00",
+    "artist": "Anna Margolina",
+    "venue": "Liquidrom",
+    "address": "Berlin",
+    "link": "https://www.liquidrom-berlin.de/de/kontakt.php"
+  },
+  {
+    "datetime": "2019-11-01T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2019-10-25T20:45:00+02:00",
+    "artist": "The Rolling Applzz",
+    "venue": "Eierschale",
+    "address": "Berlin",
+    "link": "https://www.berliner-eierschale.de/"
+  },
+  {
+    "datetime": "2019-10-12T18:00:00+02:00",
+    "artist": "volxroxx",
+    "venue": "Locanda 12 Apostoli",
+    "address": "Berlin",
+    "link": "https://www.diewuidnwiesn.de/"
+  },
+  {
+    "datetime": "2019-09-20T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2019-09-16T21:00:00+02:00",
+    "artist": "b-flat Jazz Orchestra",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2019-08-23T18:00:00+02:00",
+    "artist": "25 Jahre AEO Big Band",
+    "venue": "AEO",
+    "address": "Berlin",
+    "link": "https://www.aeo.de"
+  },
+  {
+    "datetime": "2019-08-16T20:00:00+02:00",
+    "artist": "The Rolling Applzz",
+    "venue": "Musik und Frieden",
+    "address": "Berlin",
+    "link": "https://musikundfrieden.de/"
+  },
+  {
+    "datetime": "2019-08-10T16:00:00+02:00",
+    "artist": "Rachelina und die Maccheronies",
+    "venue": "Haus der Brandenburgisch-Preußischen Geschichte",
+    "address": "Berlin",
+    "link": "https://www.hdpg.de/"
+  },
+  {
+    "datetime": "2019-08-04T21:00:00+02:00",
+    "artist": "Anna Margolina",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2019-08-01T18:00:00+02:00",
+    "artist": "Rachelina und die Maccheronies",
+    "venue": "MEK",
+    "address": "Berlin",
+    "link": "https://www.smb.museum/museen-einrichtungen/museum-europaeischer-kulturen/besuch-planen/adresse/"
+  },
+  {
+    "datetime": "2019-06-22T21:00:00+02:00",
+    "artist": "Eyal Lovett Quintett",
+    "venue": "Zig Zag",
+    "address": "Berlin",
+    "link": "https://www.zigzag-jazzclub.berlin/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2019-06-21T21:00:00+02:00",
+    "artist": "Eyal Lovett Quintett",
+    "venue": "Zig Zag",
+    "address": "Berlin",
+    "link": "https://www.zigzag-jazzclub.berlin/",
+    "canceled": "true"
+  },
+  {
+    "datetime": "2019-06-08T17:15:00+02:00",
+    "artist": "Anna Margolina",
+    "venue": "Jazz im Park",
+    "address": "Berlin",
+    "link": "http://pankow-feiert.homepage.t-online.de/index2.html"
+  },
+  {
+    "datetime": "2019-06-07T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2019-06-06T21:00:00+02:00",
+    "artist": "Berlin Cool Jazz Project",
+    "venue": "b-flat Berlin",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2019-05-25T20:00:00+02:00",
+    "artist": "Anna Margolina",
+    "venue": "KulturKirche nikodemus",
+    "address": "Berlin",
+    "link": "https://www.kulturkirche-nikodemus.berlin/"
+  },
+  {
+    "datetime": "2019-05-03T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2019-04-28T20:30:00+02:00",
+    "artist": "BJJO & Dick Oatts",
+    "venue": "ALEX Offener Kanal",
+    "address": "Berlin",
+    "link": "https://www.alex-berlin.de/kontakt/anfahrt.html"
+  },
+  {
+    "datetime": "2019-04-05T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2019-03-29T21:00:00+01:00",
+    "artist": "Aba Ete",
+    "venue": "Kugelbahn",
+    "address": "Berlin",
+    "link": "http://www.kugelbahn-wedding.de/"
+  },
+  {
+    "datetime": "2019-03-25T21:00:00+01:00",
+    "artist": "b-flat Jazz Orchestra",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2019-03-13T20:30:00+01:00",
+    "artist": "Anna Margolina",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2019-03-08T20:00:00+01:00",
+    "artist": "Porno und Piano",
+    "venue": "TATWERK Performative Forschung",
+    "address": "Berlin",
+    "link": "https://tatwerk-berlin.de/de/"
+  },
+  {
+    "datetime": "2019-03-01T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2019-02-12T21:00:00+01:00",
+    "artist": "b-flat Jazz Orchestra",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2019-02-01T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2019-01-04T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-12-15T20:00:00+01:00",
+    "artist": "BJJO & Torsten Maaß",
+    "venue": "Jazztreff",
+    "address": "Berlin",
+    "link": "https://www.landesmusikrat-berlin.de/projekte/berliner-jazztreff/"
+  },
+  {
+    "datetime": "2018-12-14T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-12-13T20:00:00+01:00",
+    "artist": "The Rolling Applz",
+    "venue": "Rickenbackers Music Inn",
+    "address": "Berlin",
+    "link": "http://www.rickenbackers.de/"
+  },
+  {
+    "datetime": "2018-12-12T20:30:00+01:00",
+    "artist": "Foo Birds",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-12-10T18:00:00+01:00",
+    "artist": "BJJO & Torsten Maaß",
+    "venue": "Rotes Rathaus",
+    "address": "Berlin",
+    "link": "https://www.berlin.de/sehenswuerdigkeiten/3559880-3558930-rotes-rathaus.html"
+  },
+  {
+    "datetime": "2018-11-18T20:00:00+01:00",
+    "artist": "BJJO & Torsten Maaß",
+    "venue": "Stage Club",
+    "address": "Hamburg",
+    "link": "http://www.stageclub.de/"
+  },
+  {
+    "datetime": "2018-11-16T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-11-13T21:30:00+01:00",
+    "artist": "Berlin Cool Jazz Project",
+    "venue": "b-flat Berlin",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2018-10-19T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-09-21T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-09-01T21:30:00+02:00",
+    "artist": "Savoy Satelites",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-08-27T21:00:00+02:00",
+    "artist": "b-flat Jazz Orchestra",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2018-07-16T22:00:00+02:00",
+    "artist": "Omniversal Earkestra",
+    "venue": "Kultstätte Keller",
+    "address": "Berlin",
+    "link": "https://www.kellerkultur.net/"
+  },
+  {
+    "datetime": "2018-07-09T22:00:00+02:00",
+    "artist": "Omniversal Earkestra",
+    "venue": "Kultstätte Keller",
+    "address": "Berlin",
+    "link": "https://www.kellerkultur.net/"
+  },
+  {
+    "datetime": "2018-07-06T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-07-05T21:00:00+02:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2018-06-27T21:00:00+02:00",
+    "artist": "Porno und Piano",
+    "venue": "Fusion",
+    "address": "Lärz",
+    "link": "http://www.fusion-festival.de/de/2018/home/"
+  },
+  {
+    "datetime": "2018-06-24T13:00:00+02:00",
+    "artist": "BJJO & Mats Holmquist",
+    "venue": "ECHY Award 2018",
+    "address": "Berlin",
+    "link": "https://sharingheritage.de/aktuelles/european-cultural-heritage-summit/"
+  },
+  {
+    "datetime": "2018-06-22T21:00:00+02:00",
+    "artist": "Rachelina und die Maccheronies",
+    "venue": "FHXB Museum",
+    "address": "Berlin",
+    "link": "https://www.fhxb-museum.de/"
+  },
+  {
+    "datetime": "2018-06-21T18:00:00+02:00",
+    "artist": "BJJO & Mats Holmquist",
+    "venue": "Fete de la Musique",
+    "address": "Berlin",
+    "link": "https://www.fetedelamusique.de/"
+  },
+  {
+    "datetime": "2018-06-08T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-06-07T21:00:00+02:00",
+    "artist": "orpheus&eurydice",
+    "venue": "Bar Tausend",
+    "address": "Berlin",
+    "link": "http://tausendberlin.com/"
+  },
+  {
+    "datetime": "2018-05-19T21:00:00+02:00",
+    "artist": "Porno und Piano",
+    "venue": "Kunstkooperative",
+    "address": "Berlin",
+    "link": "https://www.kunstkooperative.com/"
+  },
+  {
+    "datetime": "2018-05-11T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-04-13T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-04-09T22:00:00+02:00",
+    "artist": "Omniversal Earkestra",
+    "venue": "Kultstätte Keller",
+    "address": "Berlin",
+    "link": "https://www.kellerkultur.net/"
+  },
+  {
+    "datetime": "2018-03-31T20:00:00+02:00",
+    "artist": "Anna Margolina",
+    "venue": "Sofar Sounds",
+    "address": "Berlin",
+    "link": "https://www.sofarsounds.com/berlin"
+  },
+  {
+    "datetime": "2018-03-29T20:00:00+02:00",
+    "artist": "BJJO & Mats Holmquist",
+    "venue": "Georg-von-Neumann-Saal",
+    "address": "Berlin",
+    "link": "https://www.udk-berlin.de/universitaet/veranstaltungsort-udk-berlin/jazzinstitut-georg-neumann-saal/"
+  },
+  {
+    "datetime": "2018-03-17T20:00:00+02:00",
+    "artist": "Porno und Piano",
+    "venue": "Tatwerk",
+    "address": "Berlin",
+    "link": "https://www.tatwerk-berlin.de/de/"
+  },
+  {
+    "datetime": "2018-03-02T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-03-01T20:00:00+02:00",
+    "artist": "Berliner Camerata",
+    "venue": "Konzerthaus",
+    "address": "Berlin",
+    "link": "https://www.konzerthaus.de/en/"
+  },
+  {
+    "datetime": "2018-02-17T19:00:00+02:00",
+    "artist": "Fine Arts Big Band",
+    "venue": "SkyLiveClub",
+    "address": "Berlin",
+    "link": "http://www.skyliveclub.de/skyliveclub/"
+  },
+  {
+    "datetime": "2018-02-09T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-01-19T20:30:00+02:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "https://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2018-01-18T20:30:00+02:00",
+    "artist": "Berlin Cool Jazz Project",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2017-12-08T21:00:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2017-11-18T20:00:00+01:00",
+    "artist": "Rachelina & I Maccheronies",
+    "venue": "Trattoria Peppino",
+    "address": "Berlin",
+    "link": "http://www.da-peppino.com/"
+  },
+  {
+    "datetime": "2017-11-17T19:00:00+01:00",
+    "artist": "BJJO & Michael Philip Mossman",
+    "venue": "Berggruen-Gymnasium",
+    "address": "Berlin",
+    "link": "http://hbg.be.schule.de/"
+  },
+  {
+    "datetime": "2017-11-16T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2017-11-03T21:00:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2017-10-27T20:30:00+01:00",
+    "artist": "Gardens End",
+    "venue": "Frannz Club",
+    "address": "Berlin",
+    "link": "https://www.facebook.com/frannz/"
+  },
+  {
+    "datetime": "2017-09-22T21:00:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2017-09-21T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2017-09-10T15:30:00+01:00",
+    "artist": "Rachelina & I Maccheronies",
+    "venue": "Urania",
+    "address": "Berlin",
+    "link": "https://www.urania.de/italia-festival-berlin-2017"
+  },
+  {
+    "datetime": "2017-09-09T17:00:00+01:00",
+    "artist": "Rachelina & I Maccheronies",
+    "venue": "Urania",
+    "address": "Berlin",
+    "link": "https://www.urania.de/italia-festival-berlin-2017"
+  },
+  {
+    "datetime": "2017-08-26T21:00:00+01:00",
+    "artist": "Anna Margolina",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2017-07-22T20:00:00+01:00",
+    "artist": "Benjamin Attiche",
+    "venue": "Marlene Bar",
+    "address": "Berlin",
+    "link": "https://www.berlin.intercontinental.com/gastronomie/marlene-bar"
+  },
+  {
+    "datetime": "2017-07-19T18:00:00+01:00",
+    "artist": "Patrick Hamacher",
+    "venue": "Georg-von-Neumann-Saal",
+    "address": "Berlin",
+    "link": "https://www.udk-berlin.de/universitaet/veranstaltungsort-udk-berlin/jazzinstitut-georg-neumann-saal/"
+  },
+  {
+    "datetime": "2017-07-06T21:00:00+01:00",
+    "artist": "Berlin Cool Jazz Project",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2017-06-29T15:00:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "MIM",
+    "address": "Berlin",
+    "link": "https://www.sim.spk-berlin.de/jazz_im_mim_1116.html"
+  },
+  {
+    "datetime": "2017-06-23T21:00:00+01:00",
+    "artist": "Orpheus&Eurydice",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2017-06-02T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2017-05-25T20:00:00+01:00",
+    "artist": "Orpheus&Eurydice",
+    "venue": "Bar Tausend",
+    "address": "Berlin",
+    "link": "http://tausendberlin.com/"
+  },
+  {
+    "datetime": "2017-05-11T21:00:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2017-05-05T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2017-04-11T21:00:00+01:00",
+    "artist": "orpheus III",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2017-04-08T20:00:00+01:00",
+    "artist": "Orpheus&Eurydice",
+    "venue": "db concept store",
+    "address": "Berlin",
+    "link": "http://dbeadsconceptstore.com/"
+  },
+  {
+    "datetime": "2017-04-07T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2017-03-24T21:15:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Zig Zag Club",
+    "address": "Berlin",
+    "link": "http://www.zigzag-jazzclub.berlin/"
+  },
+  {
+    "datetime": "2017-03-03T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2017-02-25T20:00:00+01:00",
+    "artist": "Orpheus&Eurydice",
+    "venue": "Kallasch&",
+    "address": "Berlin",
+    "link": "https://www.facebook.com/moabiterbarprojekt/"
+  },
+  {
+    "datetime": "2017-02-05T18:00:00+01:00",
+    "artist": "Sound of Chess",
+    "venue": "Studiosaal HfM 'Hanns Eisler'",
+    "address": "Berlin",
+    "link": "http://www.hfm-berlin.de/veranstaltungen/besucherinformationen/"
+  },
+  {
+    "datetime": "2017-02-04T20:00:00+01:00",
+    "artist": "orpheus III",
+    "venue": "Kallasch&",
+    "address": "Berlin",
+    "link": "https://www.facebook.com/moabiterbarprojekt/"
+  },
+  {
+    "datetime": "2017-02-03T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2017-01-06T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2017-01-05T21:00:00+01:00",
+    "artist": "Berlin Cool Jazz Project",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2016-12-22T21:00:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2016-12-19T21:30:00+01:00",
+    "artist": "orpheus III",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2016-12-07T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2016-12-03T21:00:00+01:00",
+    "artist": "Dwight Thompson Band",
+    "venue": "A-Trane",
+    "address": "Berlin",
+    "link": "http://www.a-trane.de/"
+  },
+  {
+    "datetime": "2016-12-02T21:00:00+01:00",
+    "artist": "Dwight Thompson Band",
+    "venue": "A-Trane",
+    "address": "Berlin",
+    "link": "http://www.a-trane.de/"
+  },
+  {
+    "datetime": "2016-12-01T18:00:00+01:00",
+    "artist": "Ruben Giannotti Ensemble",
+    "venue": "Krönungskutschen-Saal",
+    "address": "Berlin",
+    "link": "http://www.hfm-berlin.de/veranstaltungen/besucherinformationen/"
+  },
+  {
+    "datetime": "2016-11-20T20:30:00+01:00",
+    "artist": "Porno und Piano",
+    "venue": "Greenhouse",
+    "address": "Berlin",
+    "link": ""
+  },
+  {
+    "datetime": "2016-11-17T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2016-11-13T16:00:00+01:00",
+    "artist": "Manfred Wittlich",
+    "venue": "Musuem Dahlem",
+    "address": "Berlin",
+    "link": ""
+  },
+  {
+    "datetime": "2016-11-12T21:00:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Unterfahrt",
+    "address": "München",
+    "link": "http://www.unterfahrt.de/"
+  },
+  {
+    "datetime": "2016-11-11T21:00:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Staatstheater",
+    "address": "Kassel",
+    "link": "http://www.staatstheater-kassel.de/24-jazzfest-kassel,s146348.html"
+  },
+  {
+    "datetime": "2016-11-02T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2016-10-27T21:00:00+01:00",
+    "artist": "Gardens End",
+    "venue": "Rickenbackers Music Inn",
+    "address": "Berlin",
+    "link": ""
+  },
+  {
+    "datetime": "2016-10-20T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2016-10-05T21:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2016-09-22T20:00:00+01:00",
+    "artist": "orpheus III",
+    "venue": "WerkStadt",
+    "address": "Berlin",
+    "link": "http://www.werkstadt-berlin.com/"
+  },
+  {
+    "datetime": "2016-09-16T18:00:00+01:00",
+    "artist": "Anna Margolina",
+    "venue": "Bürgerhaus Grünau",
+    "address": "Berlin",
+    "link": ""
+  },
+  {
+    "datetime": "2016-09-07T20:30:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2016-09-03T16:45:00+01:00",
+    "artist": "Vello Público",
+    "venue": "Konzerthaus",
+    "address": "Dortmund",
+    "link": ""
+  },
+  {
+    "datetime": "2016-09-01T21:30:00+01:00",
+    "artist": "Composers Orchestra Berlin",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2016-08-26T21:00:00+01:00",
+    "artist": "orpheus III",
+    "venue": "Musique Maudite Festival @Mauerwerk",
+    "address": "Berlin",
+    "link": "https://www.facebook.com/CafeMauerwerk/"
+  },
+  {
+    "datetime": "2016-08-23T20:00:00+01:00",
+    "artist": "Maria Baptist Orchestra",
+    "venue": "Woche der kleinen Künste",
+    "address": "Gütersloh",
+    "link": "https://www.dreiecksplatz-gt.de/events/woche-der-kleinen-k%C3%BCnste/"
+  },
+  {
+    "datetime": "2016-07-25T21:30:00+01:00",
+    "artist": "orpheus III",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2016-07-21T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2016-07-17T16:00:00+01:00",
+    "artist": "orpheus III",
+    "venue": "zoom+focus @Studiosaal HfM 'Hanns Eisler'",
+    "address": "Berlin",
+    "link": "http://www.hfm-berlin.de/veranstaltungen/besucherinformationen/"
+  },
+  {
+    "datetime": "2016-07-08T20:00:00+01:00",
+    "artist": "Porno und Piano",
+    "venue": "Creative Office",
+    "address": "Berlin",
+    "link": "http://www.creative-office.org/"
+  },
+  {
+    "datetime": "2016-06-28T19:00:00+01:00",
+    "artist": "orpheus III",
+    "venue": "Kammermusiksaal HfM 'Hanns Eisler'",
+    "address": "Berlin",
+    "link": "http://www.hfm-berlin.de/veranstaltungen/besucherinformationen/"
+  },
+  {
+    "datetime": "2016-06-19T18:00:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Sommer im Park 2016 @Galerie im Körnerpark",
+    "address": "Berlin",
+    "link": ""
+  },
+  {
+    "datetime": "2016-06-11T19:00:00+01:00",
+    "artist": "Hanns Eisler Komponistenforum",
+    "venue": "Studiosaal HfM 'Hanns Eisler' (Studiosaal)",
+    "address": "Berlin",
+    "link": "http://www.hfm-berlin.de/veranstaltungen/besucherinformationen/"
+  },
+  {
+    "datetime": "2016-06-01T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2016-05-26T20:30:00+01:00",
+    "artist": "orpheus III",
+    "venue": "WerkStadt",
+    "address": "Berlin",
+    "link": "http://www.werkstadt-berlin.com/"
+  },
+  {
+    "datetime": "2016-05-17T21:00:00+01:00",
+    "artist": "LIE",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2016-05-11T18:00:00+01:00",
+    "artist": "LIE",
+    "venue": "Studiosaal HfM 'Hanns Eisler'",
+    "address": "Berlin",
+    "link": "http://www.hfm-berlin.de/veranstaltungen/besucherinformationen/"
+  },
+  {
+    "datetime": "2016-05-04T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2016-04-06T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2016-03-21T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2016-03-11T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Gutshof Schloss Britz",
+    "address": "Berlin",
+    "link": "http://www.musikschuleneukoelln.de/content/va_det.php?vaID=6698"
+  },
+  {
+    "datetime": "2016-03-02T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2016-02-25T20:00:00+01:00",
+    "artist": "Open Space Armida",
+    "venue": "Neuköllner Oper",
+    "address": "Berlin",
+    "link": "http://neukoellneroper.de//"
+  },
+  {
+    "datetime": "2016-02-24T20:00:00+01:00",
+    "artist": "Open Space Armida",
+    "venue": "Neuköllner Oper",
+    "address": "Berlin",
+    "link": "http://neukoellneroper.de//"
+  },
+  {
+    "datetime": "2016-02-18T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2016-02-05T22:00:00+01:00",
+    "artist": "orpheus III",
+    "venue": "UdK (Lietzenburger Str.)",
+    "address": "Berlin",
+    "link": "https://www.udk-berlin.de/service/standorte-der-udk-berlin/lietzenburger-strasse-45/"
+  },
+  {
+    "datetime": "2016-02-03T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2016-01-24T17:00:00+01:00",
+    "artist": "Junge Philharmonie Berlin",
+    "venue": "Botschaft der Republik Aserbaidschan",
+    "address": "Berlin",
+    "link": "http://berlin.mfa.gov.az/"
+  },
+  {
+    "datetime": "2016-01-21T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2016-01-11T19:00:00+01:00",
+    "artist": "Junge Philharmonie Berlin",
+    "venue": "Do De Li",
+    "address": "Berlin",
+    "link": "http://www.chinarestaurant-dodeli.de/"
+  },
+  {
+    "datetime": "2016-01-03T21:00:00+01:00",
+    "artist": "Berlin Cool Jazz Project",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2015-12-17T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2015-12-16T17:00:00+01:00",
+    "artist": "Yuriy Nepomnyashchyy",
+    "venue": " Krönungskutschen-Saal",
+    "address": "Berlin",
+    "link": "http://hfm-berlin.de/"
+  },
+  {
+    "datetime": "2015-12-05T22:00:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2015-12-04T22:00:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2015-12-02T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2015-11-13T21:00:00+01:00",
+    "artist": "James Crutchfield Quartett",
+    "venue": "Caffetteria Buchhandlung",
+    "address": "Berlin",
+    "link": "http://caffetteria-buchhandlung.kunstzeit.eu//"
+  },
+  {
+    "datetime": "2015-11-07T22:00:00+01:00",
+    "artist": "orpheus III",
+    "venue": "Galatea Wine and Music Berlin",
+    "address": "Berlin",
+    "link": "https://www.facebook.com/GalateaWineBerlin/?fref=ts/"
+  },
+  {
+    "datetime": "2015-11-04T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2015-10-24T20:00:00+01:00",
+    "artist": "Crutchfield / Giannotti / Kolarczyk",
+    "venue": "Caffetteria Buchhandlung",
+    "address": "Berlin",
+    "link": "http://caffetteria-buchhandlung.kunstzeit.eu//"
+  },
+  {
+    "datetime": "2015-10-07T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2015-09-26T20:00:00+01:00",
+    "artist": "James Crutchfield Quartett",
+    "venue": "Caffetteria Buchhandlung",
+    "address": "Berlin",
+    "link": "http://caffetteria-buchhandlung.kunstzeit.eu//"
+  },
+  {
+    "datetime": "2015-09-17T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2015-09-05T21:00:00+01:00",
+    "artist": "orpheus III",
+    "venue": "Fincan",
+    "address": "Berlin",
+    "link": "http://www.fincan.eu/"
+  },
+  {
+    "datetime": "2015-09-02T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2015-06-19T20:30:00+01:00",
+    "artist": "orpheus III",
+    "venue": "WerkStadt",
+    "address": "Berlin",
+    "link": "http://www.werkstadt-berlin.com/"
+  },
+  {
+    "datetime": "2015-06-18T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2015-06-03T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2015-05-22T22:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2015-05-12T21:00:00+01:00",
+    "artist": "Berlin Cool Jazz Project",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2015-05-08T20:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "Deutsch-Russisches Museum",
+    "address": "Berlin",
+    "link": "http://www.museum-karlshorst.de/"
+  },
+  {
+    "datetime": "2015-05-06T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2015-04-29T20:00:00+01:00",
+    "artist": "LIE",
+    "venue": "Studiosaal HfM 'Hanns Eisler'",
+    "address": "Berlin",
+    "link": "http://hfm-berlin.de/"
+  },
+  {
+    "datetime": "2015-04-16T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2015-04-01T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2015-03-04T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2015-03-01T21:00:00+01:00",
+    "artist": "Composers Orchestra Berlin",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2015-02-19T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  },
+  {
+    "datetime": "2015-02-04T20:30:00+01:00",
+    "artist": "Maria Baptist Jazz Orchestra",
+    "venue": "Kunstfabrik Schlot",
+    "address": "Berlin",
+    "link": "http://kunstfabrik-schlot.de/"
+  },
+  {
+    "datetime": "2015-01-15T21:00:00+01:00",
+    "artist": "Berlin Big Band",
+    "venue": "b-flat",
+    "address": "Berlin",
+    "link": "http://b-flat-berlin.de/"
+  }
+]

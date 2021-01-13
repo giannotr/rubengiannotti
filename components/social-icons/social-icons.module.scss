@@ -1,0 +1,12 @@
+.social-icons-container {
+	display: flex;
+	flex-direction: row;
+
+	:global {
+		svg {
+			width: 20px;
+			height: 20px;
+			fill: #fff;
+		}
+	}
+}

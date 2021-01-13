@@ -1,0 +1,221 @@
+@keyframes grain {
+	from, to { transform:translate(0, 0); }
+	10% { transform:translate(-5%, -10%); }
+	20% { transform:translate(-15%, 5%); }
+	30% { transform:translate(7%, -25%); }
+	40% { transform:translate(-5%, 25%); }
+	50% { transform:translate(-15%, 10%); }
+	60% { transform:translate(15%, 0%); }
+	70% { transform:translate(0%, 15%); }
+	80% { transform:translate(3%, 35%); }
+	90% { transform:translate(-10%, 10%); }
+}
+
+@keyframes half-spin{
+	from { transform: rotate(0deg); }
+	to { transform: rotate(90deg); }
+}
+
+.wrapper {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-blend-mode: multiply !important;
+	
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(10, 10, 10, .5);
+		z-index: -1;
+	}
+
+	@media(min-width: 1025px) {
+		background-position: center;
+	}
+}
+
+.content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.pad-content {
+	padding: 15px;
+
+	@media(min-width: 600px) {
+		padding: 15px 125px 15px 25px;
+	}
+}
+
+.scroll-content {
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0;
+
+	&::-webkit-scrollbar {
+		width: 20px;
+		border-width: 5px;
+		color: #2d2727;
+	}
+	
+	&::-webkit-scrollbar-track-piece {
+		background-color: #555;
+		border-width: 2px 9px 2px 9px;
+		border-style: solid;
+		color: #2d2727;
+	}
+	
+	&::-webkit-scrollbar-thumb {
+		border-radius: 7px;
+		background-color: #bbb;
+		border-style: solid;
+		border-width: 1px 7px 1px 7px;
+		color: #2d2727;
+	}
+
+	&.transparent {
+		&::-webkit-scrollbar {
+			width: 8.5px;
+			border-width: 0;
+			border: none;
+			color: transparent;
+		}
+
+		&::-webkit-scrollbar-track-piece {
+			background-color: transparent;
+			border: none;
+			border-width: 0;
+			color: transparent;
+		}
+		
+		&::-webkit-scrollbar-track {
+			background: transparent;
+			border-width: 0;
+		}
+		
+		&::-webkit-scrollbar-thumb {
+			background: #ddd;
+			border: none;
+			border-radius: 1px !important;
+			color: transparent;
+		}
+		
+		&::-webkit-scrollbar-thumb:hover {
+			background: #999;
+		}
+	}
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	background: rgba(0, 0, 0, .8);
+	opacity: 0;
+	overflow: hidden;
+	z-index: 1001;
+	transition: all .6s ease .4s;
+
+	&::after {
+		display: none;
+		position: fixed;
+		top: -100%;
+		left: -50%;
+		content: '';
+		background-image: url('/img/paper-pattern.png');
+		width: 300%;
+		height: 300%;
+		opacity: .25;
+		animation: grain 8s steps(10) infinite;
+	}
+
+	&.expanded {
+		width: 100vw;
+		height: 100vh;
+		opacity: 1;
+		transition: all .6s ease;
+	
+		&::after {
+			display: block;
+		}
+	}
+
+	* {
+		z-index: 1002;
+	}
+}
+
+.modal-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100vw;
+	height: 100vh;
+	min-width: 200px;
+	min-height: 500px;
+	padding: 15px;
+	background: rgba(25, 25, 25, .75);
+	transform: translate(-50%, -50%);
+	z-index: 1003;
+
+	@media screen and (orientation: landscape) {
+		min-width: 500px;
+		min-height: 200px;
+	}
+
+	@media(min-width: 1000px) {
+		width: 75vw;
+		height: 65vh;
+	}
+
+	@media(min-width: 1600px) {
+		width: 50vw;
+		height: 65vh;
+	}
+}
+
+.modal-header {
+	position: relative;
+	padding-right: 28px;
+
+	h3 {
+		padding: 10px 20px;
+		font-size: 1.95rem;
+		color: #fff;
+	}
+
+	svg {
+		position: absolute;
+		top: 0;
+		right: 0;
+		fill: #fff;
+		cursor: pointer;
+		transform: rotate(0deg);
+		transition: fill .2s ease;
+		z-index: 1;
+
+		&.animated {
+			animation: half-spin .125s ease-in;
+		}
+
+		&:hover {
+			fill: #bbb;
+		}
+	}
+}

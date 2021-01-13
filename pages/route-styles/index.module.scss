@@ -1,0 +1,54 @@
+.title {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	padding: 20px;
+	font-size: 1.75rem;
+	color: white;
+	z-index: 1;
+	transform: rotate(-90deg) translate(33%, -75%);
+
+	:global {
+		span {
+			display: block;
+			font-size: 50%;
+		}
+	}
+
+	@media(min-width: 500px) {
+		font-size: 2.2rem;
+	}
+}
+
+.social-container {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	padding-left: 200px;
+	z-index: 1;
+
+	& > div {
+		display: flex;
+		align-content: center;
+		justify-content: space-between;
+		width: 200px;
+	}
+
+	@media(max-width: 650px) {
+		display: none;
+	}
+}
+
+.sound-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	z-index: 1;
+
+	svg {
+		width: 35px;
+		height: 35px;
+		fill: #ddd;
+	}
+}

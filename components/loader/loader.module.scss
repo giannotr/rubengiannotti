@@ -1,0 +1,13 @@
+.loader-wrapper {
+	height: auto;
+	width: auto;
+	padding: 5px;
+
+	:global {
+		svg {
+			path, rect {
+				fill: #c72c41;
+			}
+		}
+	}	
+}

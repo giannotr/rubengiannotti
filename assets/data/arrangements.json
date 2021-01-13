@@ -1,0 +1,197 @@
+[
+	{
+		"title": "La passacaglia della vita",
+		"composer": "Stefano Landi",
+		"instrumentation": "Stimme und Ensemble",
+		"compYear": "~1630"
+	},
+	{
+		"title": "Orfeo ed Euridice",
+		"composer": "Christoph Willibald Gluck",
+		"instrumentation": "Elelktronik, Schlagwerk, Solisten und Chor",
+		"compYear": "1762"
+	},
+	{
+		"title": "Acht Klavierstücke op. 76",
+		"composer": "Johannes Brahms",
+		"instrumentation": "Streichquartett",
+		"compYear": "1878"
+	},
+	{
+		"title": "Sursum corda aus 'Années de pèlerinage, troisième année'",
+		"composer": "Franz Liszt",
+		"instrumentation": "Ensemble",
+		"compYear": "1883"
+	},
+	{
+		"title": "Gymnopédies",
+		"composer": "Erik Satie",
+		"instrumentation": "Orchester",
+		"compYear": "1888"
+	},
+	{
+		"title": "Vokalise aus '14 Lieder op. 34'",
+		"composer": "Sergei Rachmaninoff",
+		"instrumentation": "Cello solo und Orchester",
+		"compYear": "1912"
+	},
+	{
+		"title": "Prayer aus 'From Jewish life'",
+		"composer": "Ernest Bloch",
+		"instrumentation": "Cello solo und Orchester",
+		"compYear": "1924"
+	},
+	{
+		"title": "Night And Day",
+		"composer": "Cole Porter",
+		"instrumentation": "Big Band",
+		"compYear": "1932"
+	},
+	{
+		"title": "It Ain't Necessarily So",
+		"composer": "George Gershwin",
+		"instrumentation": "Twelvetett",
+		"compYear": "1935"
+	},
+	{
+		"title": "You Don’t Know What Love Is",
+		"composer": "Gene De Paul",
+		"instrumentation": "Stimme und Blechbläserquintett",
+		"compYear": "1941",
+		"audioSrc": "https://margolinamusic.bandcamp.com/album/di-goldene-pave"
+	},
+	{
+		"title": "Too Darn Hot",
+		"composer": "Cole Porter",
+		"instrumentation": "Stimme und Twelvetett",
+		"compYear": "1948"
+	},
+	{
+		"title": "Tu vuò fà l’americano",
+		"composer": "Renato Carosone",
+		"instrumentation": "Big Band",
+		"compYear": "1956"
+	},
+	{
+		"title": "Something's Comin' aus 'West Side Story'",
+		"composer": "Leonard Bernstein",
+		"instrumentation": "Twelvetett",
+		"compYear": "1957"
+	},
+	{
+		"title": "Giant Steps",
+		"composer": "John Coltrane",
+		"instrumentation": "Twelvetett",
+		"compYear": "1959"
+	},
+	{
+		"title": "Countdown",
+		"composer": "John Coltrane",
+		"instrumentation": "Twelvetett",
+		"compYear": "1959"
+	},
+	{
+		"title": "The Girl From Ipanema",
+		"composer": "Antonio Carlos Jobim",
+		"instrumentation": "Big Band",
+		"compYear": "1963"
+	},
+	{
+		"title": "Cantaloupe Island",
+		"composer": "Herbie Hancock",
+		"instrumentation": "Big Band",
+		"compYear": "1964"
+	},
+	{
+		"title": "Blackbird",
+		"composer": "Paul McCartney",
+		"instrumentation": "Stimme und Septett",
+		"compYear": "1968",
+		"audioSrc": "https://soundcloud.com/margolinamusic/blackbird"
+	},
+	{
+		"title": "Killer Joe",
+		"composer": "Benny Golson",
+		"instrumentation": "Big Band",
+		"compYear": "1969"
+	},
+	{
+		"title": "Oblivion",
+		"composer": "Astor Piazzolla",
+		"instrumentation": "Orchester",
+		"compYear": "1972"
+	},
+	{
+		"title": "This Masquerade",
+		"composer": "Leon Russel",
+		"instrumentation": "Stimme und Big Band",
+		"compYear": "1972"
+	},
+	{
+		"title": "Libertango",
+		"composer": "Astor Piazzolla",
+		"instrumentation": "Orchester",
+		"compYear": "1973"
+	},
+	{
+		"title": "Butterfly",
+		"composer": "Herbie Hancock",
+		"instrumentation": "Big Band",
+		"compYear": "1974"
+	},
+	{
+		"title": "Ana Maria",
+		"composer": "Wayne Shorter",
+		"instrumentation": "Big Band",
+		"compYear": "1974"
+	},
+	{
+		"title": "A Arte de Voar",
+		"composer": "Nelson Ayres",
+		"instrumentation": "Twelvetett",
+		"compYear": "1981"
+	},
+	{
+		"title": "Maniac",
+		"composer": "Michael Sembello / Dennis Matkosky",
+		"instrumentation": "Stimme und Big Band",
+		"compYear": "1983"
+	},
+	{
+		"title": "Billie Jean",
+		"composer": "Michael Jackson",
+		"instrumentation": "Ensemble",
+		"compYear": "1988",
+		"audioSrc": "https://soundcloud.com/ruben-giannotti/billie-jean"
+	},
+	{
+		"title": "Vesna",
+		"composer": "Serhii Babkin / Andrii Zaporozhets",
+		"instrumentation": "Stimme und Tentett",
+		"compYear": "2002"
+	},
+	{
+		"title": "Twentysomething",
+		"composer": "Jamie Cullum",
+		"instrumentation": "Stimme und Big Band",
+		"compYear": "2003"
+	},
+	{
+		"title": "To-Phu",
+		"composer": "Tobias Fiege",
+		"instrumentation": "Big Band",
+		"compYear": "2010"
+	},
+	{
+		"title": "Dirty Moon",
+		"composer": "Tobias Fiege",
+		"instrumentation": "Stimme und Tentett",
+		"compYear": "2011"
+	},
+	{
+		"title": "Bad Kingdom",
+		"composer": "Moderat",
+		"instrumentation": "Stimme und Ensemble",
+		"compYear": "2013"
+	}
+]

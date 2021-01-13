@@ -1,0 +1,27 @@
+.playlist-container {
+	position: relative;
+	width: 100%;
+	padding: 30px;
+
+	& > :global(*) {
+		width: 100%;
+		height: 100%;
+	}
+	
+	:global {
+		iframe {
+			max-width: 500px;
+		}
+	}
+
+	@media screen and (orientation: landscape) {
+		padding: 0 30px 10px;
+	}
+}
+
+.playlist-item {
+	display: flex;
+	place-items: center;
+	justify-content: center;
+	margin: 25px;
+}

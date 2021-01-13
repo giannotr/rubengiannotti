@@ -1,0 +1,117 @@
+//@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700;800&family=Major+Mono+Display&family=Oxygen+Mono&display=swap');
+$cursor: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMCAwQzQuMjggMCAwIDQuMjggMCAyMEMwIDM1LjcyMTcgNC4yNTE2NyA0MCAyMCA0MEMzNS43NDgzIDQwIDQwIDM1Ljc0ODMgNDAgMjBDNDAgNC4yNTE2NyAzNS43MjE3IDAgMjAgMFpNMjAgMS41QzMzLjg2MTcgMS41IDM4LjUgNi4xMzY2NyAzOC41IDIwQzM4LjUgMzMuODYxNyAzMy44NjE3IDM4LjUgMjAgMzguNUM2LjEzNjY3IDM4LjUgMS41IDMzLjg2MTcgMS41IDIwQzEuNSA2LjEzNjY3IDYuMTM2NjcgMS41IDIwIDEuNVoiIGZpbGw9IiNFMUVDRUIiLz4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iNC41IiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K) 20 20, auto;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+	padding: 0;
+	cursor: $cursor !important;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Dosis',
+		'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell',
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #2d2727;
+	color: #ddd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+	font-family: 'Oxygen Mono';
+}
+
+h2, h3 {
+	font-family: -apple-system, BlinkMacSystemFont, 'Major Mono Display', sans-serif;
+}
+
+h2, h3, h4 {
+	margin: 10px 0;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 2rem;
+	color: #c72c41;
+}
+
+.app-container {
+	width: 100vw;
+  height: 100vh;
+  margin: 0;
+	padding: 0;
+	outline: none !important;
+}
+
+@keyframes anchor-hover {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translate(-3px, 3px);
+	}
+	40% {
+		transform: translate(-3px, -3px);
+	}
+	60% {
+		transform: translate(3px, 3px);
+	}
+	80% {
+		transform: translate(3px, -3px);
+	}
+	100% {
+		transform: translate(0);
+	}
+}
+
+a, button[type=submit], button[type=proceed] {
+	position: relative;
+	color: #ddd;
+	text-decoration: none;
+	background: none;
+	border: none;
+	border-radius: 0;
+	
+	&::before, &::after {
+		display: block;
+		content: attr(data-content);
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+	}
+
+	&::after {
+		color: #ff009d;
+		z-index: -2;
+	}
+
+	&::before {
+		color: #00ffea;
+		z-index: -1;
+	}
+
+	&:hover {
+		&::after, &::before {
+			opacity: .6;
+		}
+
+		&::after {
+			animation: anchor-hover .4s cubic-bezier(.25, .46, .45, .94) both reverse infinite;
+		}
+	
+		&::before {
+			animation: anchor-hover .4s cubic-bezier(.25, .46, .45, .94) both infinite;
+		}
+	}
+}

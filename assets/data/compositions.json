@@ -1,0 +1,181 @@
+[
+	{
+		"opus": "1",
+		"title": "Sleepin' Beecroft",
+		"instrumentation": "Big Band",
+		"year": "2014",
+		"audioSrc": "https://soundcloud.com/ruben-giannotti/sleepin-beecroft"
+	},
+	{
+		"opus": "2",
+		"title": "Suite #1 für Quintett",
+		"year": "2014",
+		"audioSrc": "https://open.spotify.com/album/5ELco7vsgvJYI3iMebQh5k?si=7PtK1zBrTQyS6CUb31ySvA"
+	},
+	{
+		"opus": "3",
+		"title": "Phantasiestück für Klarinette und Pianoforte",
+		"year": "2014"
+	},
+	{
+		"opus": "4",
+		"title": "wind.raum",
+		"instrumentation": "Ensemble und Elektronik",
+		"year": "2014"
+	},
+	{
+		"opus": "5",
+		"title": "ruine",
+		"instrumentation": "Big Band",
+		"year": "2017",
+		"audioSrc": "https://open.spotify.com/album/6ydRiTj8E9OmQLBY8j6sRb"
+	},
+	{
+		"opus": "6",
+		"title": "vaermeland",
+		"instrumentation": "Big Band",
+		"year": "2015",
+		"audioSrc": "https://open.spotify.com/album/6ydRiTj8E9OmQLBY8j6sRb"
+	},
+	{
+		"opus": "7",
+		"title": "Checkpoint Charlie",
+		"instrumentation": "Big Band",
+		"year": "2015"
+	},
+	{
+		"opus": "8",
+		"title": "Neun Lieder ohne Worte über die Märchen von Oscar Wilde",
+		"instrumentation": "Ensemble",
+		"year": "2015"
+	},
+	{
+		"opus": "9",
+		"title": "Antigone",
+		"instrumentation": "Klarinette und Streichquartett",
+		"year": "2015"
+	},
+	{
+		"opus": "10",
+		"title": "Prometheus",
+		"instrumentation": "Symphonisches Blasorchester",
+		"year": "2015"
+	},
+	{
+		"opus": "11",
+		"title": "Peter And His Wicked Gang",
+		"instrumentation": "Big Band",
+		"year": "2015"
+	},
+	{
+		"opus": "12",
+		"title": "Fünf frühe Lieder",
+		"instrumentation": "Ensemble",
+		"year": "2015"
+	},
+	{
+		"opus": "13",
+		"title": "fragment #3",
+		"instrumentation": "Big Band",
+		"year": "2016",
+		"audioSrc": "https://open.spotify.com/album/6ydRiTj8E9OmQLBY8j6sRb"
+	},
+	{
+		"opus": "14",
+		"title": "Tema con variazioni für sechs Bläser",
+		"year": "2016"
+	},
+	{
+		"opus": "15",
+		"title": "Der Künstler",
+		"instrumentation": "Sprecherin und 10 Instrumente",
+		"year": "2015"
+	},
+	{
+		"opus": "16",
+		"title": "Deucalion und Pyrrha",
+		"instrumentation": "Großes Orchester / Symphonisches Blasorchester",
+		"year": "2016"
+	},
+	{
+		"opus": "17",
+		"title": "Passacaglia ed extroduzione",
+		"instrumentation": "4 Instrumente",
+		"year": "2016"
+	},
+	{
+		"opus": "18",
+		"title": "Drei Melodrame über Texte von Albert Giraud",
+		"instrumentation": "Ensemble",
+		"year": "2017"
+	},
+	{
+		"opus": "19",
+		"title": "Waldspaziergang",
+		"instrumentation": "Stimme und 5 Instrumente",
+		"year": "2017"
+	},
+	{
+		"opus": "20",
+		"title": "fragment #2",
+		"instrumentation": "Big Band",
+		"year": "2017",
+		"audioSrc": "https://open.spotify.com/album/6ydRiTj8E9OmQLBY8j6sRb"
+	},
+	{
+		"opus": "21",
+		"title": "La valle giovane",
+		"instrumentation": "Orchester",
+		"year": "2017"
+	},
+	{
+		"opus": "22",
+		"title": "pravda 13.1-2",
+		"instrumentation": "Orchester",
+		"year": "2017"
+	},
+	{
+		"opus": "23",
+		"title": "jenissei",
+		"instrumentation": "Twelvetett",
+		"year": "2018"
+	},
+	{
+		"opus": "24",
+		"title": "fragment #1",
+		"instrumentation": "Big Band",
+		"year": "2018",
+		"audioSrc": "https://open.spotify.com/album/6ydRiTj8E9OmQLBY8j6sRb"
+	},
+	{
+		"opus": "25",
+		"title": "assenza",
+		"instrumentation": "Streichquartett",
+		"year": "2019"
+	},
+	{
+		"opus": "26",
+		"title": "no, wahmen: cry!",
+		"instrumentation": "Big Band",
+		"year": "2018"
+	},
+	{
+		"opus": "27",
+		"title": "serpent",
+		"instrumentation": "Big Band",
+		"year": "2019",
+		"audioSrc": "https://open.spotify.com/album/6ydRiTj8E9OmQLBY8j6sRb"
+	},
+	{
+		"opus": "28",
+		"title": "trane chain",
+		"instrumentation": "Big Band",
+		"year": "2019"
+	},
+	{
+		"opus": "29",
+		"title": "Sad Birds Still Sing",
+		"instrumentation": "Stimme und Twelvetett",
+		"year": "2020"
+	}
+]

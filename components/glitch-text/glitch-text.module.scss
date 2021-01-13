@@ -1,0 +1,110 @@
+/* Animations */
+
+@keyframes glitch {
+  2%, 64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+  4%, 60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg); 
+  }
+}
+
+@keyframes glitch-top {
+  2%, 64% {
+    transform: translate(2px, -2px);
+  }
+  4%, 60% {
+    transform: translate(-2px, 2px);
+  }
+  62% {
+    transform: translate(13px, -1px) skew(-13deg); 
+  }
+}
+
+@keyframes glitch-bottom {
+  2%, 64% {
+    transform: translate(-2px, 0);
+  }
+  4%, 60% {
+    transform: translate(-2px, 0);
+  }
+  62% {
+    transform: translate(-22px, 5px) skew(21deg); 
+  }
+}
+
+/* Classes */
+
+.glitch-text {
+  animation: glitch 2s linear infinite;
+  overflow: hidden;
+
+	&::before, &::after {
+		content: attr(data-content);
+		position: absolute;
+		left: 0;
+	}
+
+	&::before {
+		animation: glitch-top 2s linear .1s infinite;
+		clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+	}
+
+	&::after {
+		animation: glitch-bottom 3s linear .25s infinite;
+		clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+		-webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+	}
+}
+
+.glitch-text-crt {
+  $offset1: 2px;
+  $offset2: -2px;
+  $highlight1: #49FC00;
+  $highlight2: adjust-hue($highlight1, 180);
+  
+  position: relative;
+  
+  &::before, &::after {
+    content: attr(data-content);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  &::before {
+    left: $offset1;
+    text-shadow: -2px 0 $highlight1;
+    clip: rect(24px, 550px, 90px, 0);
+    animation: glitch-crt-0 3s infinite linear alternate-reverse;
+  }
+  
+  &::after {
+    left: $offset2;
+    text-shadow: -2px 0 $highlight2;
+    clip: rect(85px, 550px, 140px, 0);
+    animation: glitch-crt-1 2.5s infinite linear alternate-reverse;
+  }
+}
+
+@mixin glitch-animation-crt($name, $n: 20, $i: 0) {
+  @keyframes #{$name} {
+    @for $index from $i through $n {
+      $keyframeSel: percentage($index/$n);
+      $rand1: random()*150 + px;
+      $rand2: random()*150 + px;
+      #{$keyframeSel} {
+        clip: rect($rand1, 9999px, $rand2, 0);
+      }
+    }
+  }
+}
+
+@include glitch-animation-crt('glitch-crt-0', 30, 2);
+@include glitch-animation-crt('glitch-crt-1', 24);

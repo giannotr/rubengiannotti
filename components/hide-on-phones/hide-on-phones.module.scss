@@ -1,0 +1,11 @@
+.hide-on-phones {
+	display: block;
+
+	@media(max-width: 600px) {
+		display: none;
+
+		&.bypass {
+			display: block !important;
+		}
+	}
+}

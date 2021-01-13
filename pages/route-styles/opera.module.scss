@@ -1,0 +1,99 @@
+$two-column-breakpoint: 1025px;
+$heading-height: 100px;
+$sub-heading-height: 30px;
+$two-column-ccroll-offset: #{$heading-height + $sub-heading-height};
+
+:export {
+	twoColumnBreakpoint: $two-column-breakpoint;
+	headingHeight: $heading-height;
+	twoColumnScrollOffset: $two-column-ccroll-offset;
+}
+
+%left-padding {
+	padding: 0 0 0 20px;
+
+	@media(min-width: $two-column-ccroll-offset) {
+		padding: 0 0 0 0;
+	}
+}
+
+.heading-position {
+	@extend %left-padding;
+}
+
+.opera-container {
+	@extend %left-padding;
+	display: flex;
+	flex-direction: column;
+
+	@media(min-width: $two-column-breakpoint) {
+		flex-direction: row;
+	}
+}
+
+.opera-tile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0 40px 0 0;
+
+	h3 {
+		height: $sub-heading-height;
+		margin: 10px 0;
+	}
+
+	@media(min-width: $two-column-breakpoint) {
+		width: 50%;
+	}
+}
+
+.opus-container {
+	display: grid;
+	grid-template-columns: 40px 1fr 40px;
+	grid-template-rows: auto auto;
+	column-gap: 10px;
+	row-gap: 5px;
+	margin: 0 5px 10px 0;
+}
+
+.opus-icon {
+	grid-column: 1 / span 1;
+	grid-row: 1 / span 2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	svg {
+		width: 20px;
+		height: 20px;
+		fill: #ddd;
+	}
+
+	&.audio {
+		grid-column: 3 / span 1;
+
+		div {
+			padding: 0;
+		}
+
+		svg {
+			width: 28px;
+			height: 28px;
+		}
+	}
+}
+
+.opus-top-row {
+	grid-column: 2 / span 1;
+	grid-row: 1 / span 1;
+	font-size: 1.075rem;
+}
+
+.opus-bottom-row {
+	grid-column: 2 / span 1;
+	grid-row: 2 / span 1;
+	font-size: .75rem;
+	color: #bbb;
+}
