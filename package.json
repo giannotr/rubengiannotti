@@ -7,6 +7,10 @@
     "build": "next build",
     "start": "next start"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giannotr/rubengiannotti/"
+  },
   "dependencies": {
     "@types/react-transition-group": "^4.4.0",
     "axios": "^0.21.0",
