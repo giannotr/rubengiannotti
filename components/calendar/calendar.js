@@ -404,8 +404,8 @@ export default function Calendar({ schedule }) {
 			{[...Array(42).keys()].map(idx => {
 				if(idx < offset || idx > getMonthDaysAmount(month, year) + offset - 1) {
 					return <div key={idx} className={getClassNames(['calendar__cell', 'calendar__cell--empty'], styles)} />
-				} else if(data.map(date => Number(date.day)).includes(idx + offset - 1)) {
-					return <div key={idx} className={availableCellCls} onClick={() => handleClickDate(idx + offset - 1)}>{idx + offset - 1}</div>
+				} else if(data.map(date => Number(date.day)).includes(idx + 1 - offset)) {
+					return <div key={idx} className={availableCellCls} onClick={() => handleClickDate(idx + 1 - offset)}>{idx + 1 - offset}</div>
 				} else {
 					return <div key={idx} className={filledCellCls}>{idx - offset + 1}</div>
 				}
