@@ -1,5 +1,5 @@
-import request from 'request';
-import querystring from 'querystring';
+import * as request from 'request';
+import * as querystring from 'querystring';
 
 var CONFIG = {
 	RECAPTCHA_SECRET_KEY: process.env.RECAPTCHA_SECRET_KEY || '',
