@@ -52,7 +52,6 @@ const initialValues = {
 const postConfigGCP = {
 	headers: {
 		'Content-Type': 'application/json',
-		'Access-Control-Allow-Origin': '*',
 	}
 }
 
