@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { useRouter } from 'next/router';
-import Link from 'next/Link';
+import Link from 'next/link';
 import mod from '../../utility/mod';
 import padZero from '../../utility/pad-zero';
 import Loader from '../loader/loader';

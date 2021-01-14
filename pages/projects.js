@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
-import Link  from 'next/Link';
+import Link  from 'next/link';
 import useWindowSize from '../hooks/use-window-size';
 import Carousel from 'react-items-carousel';
 import { Button, ChevronLeft, ChevronRight } from '../components/buttons/buttons';

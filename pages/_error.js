@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Link  from 'next/Link';
+import Link  from 'next/link';
 import { Button } from '../components/buttons/buttons';
 import GlitchText from '../components/glitch-text/glitch-text';
 import styles from './error.module.scss';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
-import Link  from 'next/Link';
+//import Link  from 'next/link';
 import axios from 'axios';
 import getClassNames from '../utility/get-class-names';
 import isProduction from '../utility/is-production';

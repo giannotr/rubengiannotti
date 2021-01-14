@@ -1,7 +1,7 @@
 import React, { Fragment, forwardRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import { useRouter } from 'next/router';
-import Link  from 'next/Link';
+import Link  from 'next/link';
 import SocialIcons from '../social-icons/social-icons';
 import styles from './navigation.module.scss';
 
