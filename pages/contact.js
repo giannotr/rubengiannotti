@@ -17,7 +17,7 @@ import { fullSize } from '../utility/base-styles';
 import styles from './route-styles/contact.module.scss';
 
 const RECAPTCHA_PUBLIC = process.env.RECAPTCHA_PUBLIC;
-const GCP_VERIFY_CAPTCHA_ENDPOINT = isProduction() ? process.env.GCP_VERIFY_CAPTCHA_ENDPOINT : 'http://localhost:8010/proxy/verify-captcha';
+const VERIFY_CAPTCHA_ENDPOINT = isProduction() ? process.env.VERIFY_CAPTCHA_ENDPOINT : 'http://localhost:8010/proxy/verify-captcha';
 const GCP_MAILING_ENDPOINT = isProduction() ? process.env.GCP_MAILING_ENDPOINT : 'http://localhost:8010/proxy/contact-form';
 // works if a proxy is set up: lcp --proxyUrl https://us-central1-rubengiannotti-contact-form.cloudfunctions.net
 
@@ -68,7 +68,7 @@ export default function Contact() {
 
 	const handleCaptchaChange = async value => {
 		const data = { 'g-recaptcha-response': value };
-		const response = await axios.post(GCP_VERIFY_CAPTCHA_ENDPOINT, data, postConfigGCP);
+		const response = await axios.post(VERIFY_CAPTCHA_ENDPOINT, data, postConfigGCP);
 		setCaptchaVerified(response.data.success);
 	}
 
