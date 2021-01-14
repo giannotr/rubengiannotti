@@ -1,59 +1,11 @@
 import Head from 'next/head';
 import { Wrapper, Content } from '../components/containers/containers';
 import Calendar from '../components/calendar/calendar';
+import * as lessonsAvailable from '../assets/data/lessons-available.json';
 
-const dataMockup = {
-	"months": [
-		{
-			"year": "2020",
-			"month": "12",
-			"availableDates": [
-				{
-					"day": "1",
-					"times": ["10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00"]
-				},
-				{
-					"day": "3",
-					"times": ["15:00", "18:00"]
-				},
-				{
-					"day": "15",
-					"times": ["15:00", "16:00", "17:00"]
-				}
-			]
-		},
-		{
-			"year": "2021",
-			"month": "1",
-			"availableDates": [
-				{
-					"day": "1",
-					"times": ["10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00"]
-				},
-				{
-					"day": "3",
-					"times": ["15:00", "18:00"]
-				},
-				{
-					"day": "15",
-					"times": ["15:00", "16:00", "17:00"]
-				},
-				{
-					"day": "16",
-					"times": ["13:00", "16:00", "17:00"]
-				},
-				{
-					"day": "18",
-					"times": ["12:00", "16:00", "17:00"]
-				},
-				{
-					"day": "26",
-					"times": ["10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00"]
-				}
-			]
-		}
-	]
-};
+const calendarProps = {
+	schedule: lessonsAvailable.default,
+}
 
 // TODO: add database (SQL via PHP GET)
 export default function Lessons() {
@@ -69,7 +21,7 @@ export default function Lessons() {
 					und senden Sie die Anfrage hier ab.
 					Die weitere Abwicklung erfolgt über E-Mail.
 				</div>
-				<Calendar schedule={dataMockup} />
+				<Calendar {...calendarProps} />
 			</Content>
 		</Wrapper>
 	);
