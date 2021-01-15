@@ -7,7 +7,7 @@ const CONFIG = {
 	SMTP_PORT: parseInt(process.env.SMTP_PORT) || 465,
 	SMTP_FROM_NAME: process.env.SMTP_FROM_NAME || 'Ruben Giannotti',
 	SMTP_FROM_EMAIL: process.env.SMTP_FROM_EMAIL || 'no-reply@rubengiannotti.com',
-	SMTP_FROM_SUBJECT: process.env.SMTP_FROM_SUBJECT || 'Buchungsanfrage für Unterricht (rubengiannotti.com)',
+	SMTP_FROM_SUBJECT: 'Buchungsanfrage für Unterricht (rubengiannotti.com)',
 	SMTP_TO: process.env.SMTP_TO || 'mail@rubengiannotti.com,ruben.giannotti@gmx.net',
 	REQUIRED_FIELDS: 'year,month,day,selectedTime,email',
 	SUCCESS_MESSAGE: process.env.SUCCESS_MESSAGE || 'Thank you, We have received your message',
@@ -27,7 +27,8 @@ const transporter = nodemailer.createTransport(smtpConfig);
 function genLessonDateTime(data) {
 	const { year, month, day, selectedTime } = data;
 	const lessonDate = new Date(year, month, day);
-	return `${lessonDate.toDateString()}, ${selectedTime}`
+	console.log(`${lessonDate.toDateString()}, ${selectedTime}`);
+	return `${lessonDate.toDateString()}, ${selectedTime}`;
 }
 
 function sendNotification(formData, res) {
@@ -94,7 +95,7 @@ module.exports = (req, res) => {
 	for (let i = 0; i < requiredFields.length; i++) {
 		const field = requiredFields[i].trim();
 
-		if(formData[field] == '') {
+		if(!(formData[field] || formData[field] === 0)) {
 			res.send(JSON.stringify({
 				success: false,
 				message: `${field} is required`,
