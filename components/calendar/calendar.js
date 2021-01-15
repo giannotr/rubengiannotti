@@ -18,8 +18,8 @@ import styles from './calendar.module.scss';
 const transitionDuration = parseInt(styles.transitionDuration, 10);
 
 const RECAPTCHA_PUBLIC = process.env.RECAPTCHA_PUBLIC;
-const GCP_VERIFY_CAPTCHA_ENDPOINT = process.env.GCP_VERIFY_CAPTCHA_ENDPOINT;
-const GCP_MAILING_ENDPOINT = process.env.GCP_MAILING_ENDPOINT;
+const VERIFY_CAPTCHA_ENDPOINT = process.env.VERIFY_CAPTCHA_ENDPOINT;
+const MAILING_ENDPOINT = process.env.MAILING_ENDPOINT;
 
 const MAX_LOOKAHEAD = 28927182167;// in ms = 11 months
 
@@ -342,7 +342,7 @@ export default function Calendar({ schedule }) {
 
 	const handleCaptchaChange = async value => {
 		const data = { 'g-recaptcha-response': value };
-		const response = await axios.post(GCP_VERIFY_CAPTCHA_ENDPOINT, data, postConfigGCP);
+		const response = await axios.post(VERIFY_CAPTCHA_ENDPOINT, data, postConfigGCP);
 		setCaptchaVerified(response.data.success);
 	}
 
@@ -355,7 +355,7 @@ export default function Calendar({ schedule }) {
 			...values
 		};
 
-		const response = await axios.post(GCP_MAILING_ENDPOINT, data, postConfigGCP);
+		const response = await axios.post(MAILING_ENDPOINT, data, postConfigGCP);
 		setSubmitSuccess(response.data.success);
 	}
 
