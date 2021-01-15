@@ -3,7 +3,7 @@ import Head from 'next/head';
 //import Link  from 'next/link';
 import axios from 'axios';
 import getClassNames from '../utility/get-class-names';
-import isProduction from '../utility/is-production';
+//import isProduction from '../utility/is-production';
 import * as Yup from 'yup';
 import { Formik, Form, Field } from 'formik';
 import ErrorDisplay from '../components/error-display/error-display';
@@ -62,12 +62,6 @@ const postConfigGCP = {
 		'Content-Type': 'application/json',
 	}
 }
-
-// AWS
-// POST
-//const mailingEndpoint = 'https://hxvp5ugdda.execute-api.us-east-1.amazonaws.com/dev/sendMail';
-// GET
-//const listEndpoint = 'https://hxvp5ugdda.execute-api.us-east-1.amazonaws.com/dev/list';
 
 // [TODO]: add fixed height container for loader and progress notifications
 export default function Contact() {
