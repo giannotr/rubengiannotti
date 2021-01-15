@@ -19,7 +19,7 @@ const transitionDuration = parseInt(styles.transitionDuration, 10);
 
 const RECAPTCHA_PUBLIC = process.env.RECAPTCHA_PUBLIC;
 const VERIFY_CAPTCHA_ENDPOINT = process.env.VERIFY_CAPTCHA_ENDPOINT;
-const MAILING_ENDPOINT = process.env.MAILING_ENDPOINT;
+const LESSONS_ENDPOINT = process.env.LESSONS_ENDPOINT;
 
 const MAX_LOOKAHEAD = 28927182167;// in ms = 11 months
 
@@ -355,7 +355,7 @@ export default function Calendar({ schedule }) {
 			...values
 		};
 
-		const response = await axios.post(MAILING_ENDPOINT, data, postConfigGCP);
+		const response = await axios.post(LESSONS_ENDPOINT, data, postConfigGCP);
 		setSubmitSuccess(response.data.success);
 	}
 
@@ -400,7 +400,7 @@ export default function Calendar({ schedule }) {
 			>
 				<Triangle />
 			</div>
-			{weekDayShorthands.map(shorthand => <CalendarHead content={shorthand} />)}
+			{weekDayShorthands.map(shorthand => <CalendarHead key={shorthand} content={shorthand} />)}
 			{[...Array(42).keys()].map(idx => {
 				if(idx < offset || idx > getMonthDaysAmount(month, year) + offset - 1) {
 					return <div key={idx} className={getClassNames(['calendar__cell', 'calendar__cell--empty'], styles)} />

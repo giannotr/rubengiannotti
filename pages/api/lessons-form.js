@@ -7,9 +7,9 @@ const CONFIG = {
 	SMTP_PORT: parseInt(process.env.SMTP_PORT) || 465,
 	SMTP_FROM_NAME: process.env.SMTP_FROM_NAME || 'Ruben Giannotti',
 	SMTP_FROM_EMAIL: process.env.SMTP_FROM_EMAIL || 'no-reply@rubengiannotti.com',
-	SMTP_FROM_SUBJECT: process.env.SMTP_FROM_SUBJECT || 'Contact form submitted on rubengiannotti.com',
+	SMTP_FROM_SUBJECT: process.env.SMTP_FROM_SUBJECT || 'Buchungsanfrage für Unterricht (rubengiannotti.com)',
 	SMTP_TO: process.env.SMTP_TO || 'mail@rubengiannotti.com,ruben.giannotti@gmx.net',
-	REQUIRED_FIELDS: 'name,email',
+	REQUIRED_FIELDS: 'year,month,day,selectedTime,email',
 	SUCCESS_MESSAGE: process.env.SUCCESS_MESSAGE || 'Thank you, We have received your message',
 }
 
@@ -23,28 +23,23 @@ const smtpConfig = {
 }
 
 const transporter = nodemailer.createTransport(smtpConfig);
-const now = new Date();
+
+function genLessonDateTime(data) {
+	const { year, month, day, selectedTime } = data;
+	const lessonDate = new Date(year, month, day);
+	return `${lessonDate.toDateString()}, ${selectedTime}`
+}
 
 function sendNotification(formData, res) {
-	let subject = `${CONFIG.SMTP_FROM_SUBJECT}: ${now.toDateString()}`;
-
-	if(formData['subject'] !== undefined) {
-		subject = formData['subject'];
-	}
-
-	let mailBody = '';
-
-	for(let key in formData) {
-		if (formData.hasOwnProperty(key)) { 
-			if(key === 'g-recaptcha-response' || key === 'submit' || key === 'gdpr') continue;// use Array method .includes?
-			mailBody += `${key}: ${formData[key]}<br />`;
-		}
-	}
+	const { email } = formData;
+	const lessonDateTime = genLessonDateTime(formData);
+	const subject = `${CONFIG.SMTP_FROM_SUBJECT}: ${lessonDateTime}`;
+	const mailBody = `E-Mail: ${email} // Termin: ${lessonDateTime}`;
 
 	transporter.sendMail({
 		from: '"mailer.rubengiannotti.com" <' + CONFIG.SMTP_FROM_EMAIL + '>',
 		to: CONFIG.SMTP_TO,
-		replyTo: formData.email,
+		replyTo: email,
 		subject: subject,
 		html: mailBody,
 	}, (error) => {
@@ -63,21 +58,21 @@ function sendNotification(formData, res) {
 }
 
 function sendConfirmation(formData) {
-	const subject = 'Ihre Kontaktanfrage auf rubengiannotti.com';
+	const lessonDateTime = genLessonDateTime(formData);
+	const subject = `${CONFIG.SMTP_FROM_SUBJECT}: ${lessonDateTime}`;
 	const mailBody = `
-Hallo ${formData.name},
+Hallo!
 <br /><br />
-vielen Dank für Ihre Nachricht! Ich werde versuchen, Sie schnellstmöglich zu beantworten.
+vielen Dank für Ihre Anfrage für Online-Unterricht. Der angefragte Termin ist: ${lessonDateTime}.
+<br /><br />
+Ich werde den Termin umgehend prüfen und (hoffentlich) bestätigen. Sie erhalten von mir zusätzlich Informationen zum Honorar und zur technischen Infrastruktur.
+<br /><br />
+Diese können Sie wiederum prüfen und mir im gleichen Zug ggf. mitteilen, welche Unterrichtsthemen Sie vorrangig interessieren.
 <br /><br />
 Freundlich grüßend,
 <br /><br />
 Ruben Giannotti
 <br /><br />
----
-<br /><br />
-Ihre Nachricht [${now.toDateString()}]:
-<br /><br />
-	${formData.message}
 	`;
 
 	transporter.sendMail({
@@ -102,7 +97,7 @@ module.exports = (req, res) => {
 		if(formData[field] == '') {
 			res.send(JSON.stringify({
 				success: false,
-				message: `${field} field is required`,
+				message: `${field} is required`,
 			}));
 			res.status(200).end();
 			return;
