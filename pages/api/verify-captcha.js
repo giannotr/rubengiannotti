@@ -40,11 +40,15 @@ function verifyCaptcha(data, ip, res) {
 }
 
 module.exports = (req, res) => {
-	res.set('Access-Control-Allow-Origin', '*');
-	res.set('Access-Control-Allow-Methods', 'GET,POST');
-	res.set('Access-Control-Allow-Headers', 'Content-Type');
-
-	var ip = (req.headers['x-forwarded-for'] || req.connection.remoteAddress || '').split(',')[0].trim();
-
-	verifyCaptcha(req.body, ip, res);
+	if(res && typeof res === 'object') {
+		console.log('res is not null and an object');
+		if(res.hasOwnProperty('set') && typeof res.set === 'function') {
+			console.log('res has property set and set is a function');
+			res.set('Access-Control-Allow-Origin', '*');
+			res.set('Access-Control-Allow-Methods', 'GET,POST');
+			res.set('Access-Control-Allow-Headers', 'Content-Type');
+			const ip = (req.headers['x-forwarded-for'] || req.connection.remoteAddress || '').split(',')[0].trim();
+			verifyCaptcha(req.body, ip, res);
+		}
+	}
 }

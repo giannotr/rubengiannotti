@@ -72,7 +72,6 @@ export default function Contact() {
 
 	const handleCaptchaChange = async value => {
 		const data = { 'g-recaptcha-response': value };
-		console.log(VERIFY_CAPTCHA_ENDPOINT);
 		const response = await axios.post(VERIFY_CAPTCHA_ENDPOINT, data, postConfigGCP);
 		setCaptchaVerified(response.data.success);
 	}
