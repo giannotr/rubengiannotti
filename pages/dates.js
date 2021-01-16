@@ -102,13 +102,13 @@ export default function Dates() {
 					<div ref={scrollable}>
 						<ScrollContent offset={scrollablaOffset} style={marginLeft}>
 							<div className={styles['table']} style={tableSty}>
-								{data.map(gig => {
+								{data.map((gig, idx) => {
 									const { datetime } = gig;
 									const datetimeObj = new Date(datetime);
 									const rowProps = { datetimeObj, ...gig };
 									if(idx <= tableLength) {
 										return(
-											<Row key={simpleHash(datetime)} {...rowProps} />
+											<Row key={idx} {...rowProps} />
 										);
 									} else {
 										return <Fragment key={idx} />;
