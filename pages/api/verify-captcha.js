@@ -6,16 +6,6 @@ const CONFIG = {
 }
 
 function verifyCaptcha(data, ip, res) {
-	let endpoint = 'https://www.google.com/recaptcha/api/siteverify?';
-
-	endpoint += querystring.stringify({
-		'secret': CONFIG.RECAPTCHA_SECRET_KEY,
-		'response': data['g-recaptcha-response'],
-		'remoteip': ip,
-	});
-
-	// [TODO]: simplify endpoint declaration =>
-	/*
 	const endpoint = `https://www.google.com/recaptcha/api/siteverify?${
 		querystring.stringify({
 			'secret': CONFIG.RECAPTCHA_SECRET_KEY,
@@ -23,7 +13,8 @@ function verifyCaptcha(data, ip, res) {
 			'remoteip': ip,
 		})
 	}`;
-	*/
+
+	console.log(endpoint);
 
 	if(data['g-recaptcha-response'] === undefined || data['g-recaptcha-response'] === '' || data['g-recaptcha-response'] === null) {
 		return res.status(200).send(JSON.stringify({
