@@ -1,7 +1,7 @@
 import React, { Fragment, forwardRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import { useRouter } from 'next/router';
-import Link  from 'next/link';
+import Link from 'next/link';
 import SocialIcons from '../social-icons/social-icons';
 import styles from './navigation.module.scss';
 
@@ -13,9 +13,7 @@ const Burger = ({ expanded }) => {
 
 	return(
 		<div className={cls}>
-			{[0, 1, 2].map(
-				idx => <span key={idx} className={`line line-${idx}`} />
-			)}
+			{[0, 1, 2].map(idx => <span key={idx} className={`line line-${idx}`} /> )}
 		</div>
 	);
 }
@@ -95,7 +93,11 @@ export default function Navigation({ routes, setRoute, setAnimateOut }) {
 					<NavLink href="/lessons" onClick={collapseNav}>
 						Online-Unterricht
 					</NavLink> /
-					<a href="https://open.spotify.com/album/6ydRiTj8E9OmQLBY8j6sRb?si=rsyWf7OxQBOy-1Ri-dDIoA&utm_source=embed_v2&go=1&play=1&nd=1" target="_blank" data-content="Aktuelles Album">
+					<a
+						href="https://open.spotify.com/album/6ydRiTj8E9OmQLBY8j6sRb?si=rsyWf7OxQBOy-1Ri-dDIoA&utm_source=embed_v2&go=1&play=1&nd=1"
+						target="_blank"
+						data-content="Aktuelles Album"
+					>
 						Aktuelles Album
 					</a>
 				</div>

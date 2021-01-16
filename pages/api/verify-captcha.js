@@ -14,6 +14,7 @@ function verifyCaptcha(data, ip, res) {
 		'remoteip': ip,
 	});
 
+	// [TODO]: simplify endpoint declaration =>
 	/*
 	const endpoint = `https://www.google.com/recaptcha/api/siteverify?${
 		querystring.stringify({

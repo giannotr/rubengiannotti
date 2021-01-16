@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import Head from 'next/head';
+import simpleHash from '../utility/simple-hash';
 import getClassNames from '../utility/get-class-names';
 import useWindowSize from '../hooks/use-window-size';
 import InstagramEmbed from 'react-instagram-embed';
@@ -72,17 +73,17 @@ export default function Media() {
 					<ScrollContent offset={headingHeight}>
 						<div className={styles['media-wrapper']}>
 							<div className={getClassNames(['media-container', 'videos'], styles)}>
-								{youtubeFeedData.map(({ id }, idx) => (
+								{youtubeFeedData.map(({ id }) => (
 									idx < ytThreshhold
-										? <YoutubeEmbed key={idx} videoId={id} />
-										: <Fragment key={idx} />
+										? <YoutubeEmbed key={simpleHash(id)} videoId={id} />
+										: <Fragment key={simpleHash(id)} />
 								))}
 							</div>
 							<div className={getClassNames(['media-container', 'instagram'], styles)}>
-								{instagramFeedData.map(({ id }, idx) => (
+								{instagramFeedData.map(({ id }) => (
 									idx < instaThreshhold
 										? <InstagramEmbed
-												key={idx}
+												key={simpleHash(id)}
 												id={id}
 												url={`${INSTAGRAM_EMBED_ENDPOINT}/${id}/`}
 												clientAccessToken={`${INSTAGRAM_PUBLIC}|${INSTAGRAM_SECRET}`}
@@ -92,7 +93,7 @@ export default function Media() {
 												protocol=''
 												injectScript
 											/>
-										: <Fragment key={idx} />
+										: <Fragment key={simpleHash(id)} />
 								))}
 							</div>
 						</div>

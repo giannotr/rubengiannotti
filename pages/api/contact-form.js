@@ -10,7 +10,7 @@ const CONFIG = {
 	SMTP_FROM_SUBJECT: process.env.SMTP_FROM_SUBJECT || 'Contact form submitted on rubengiannotti.com',
 	SMTP_TO: process.env.SMTP_TO || 'mail@rubengiannotti.com,ruben.giannotti@gmx.net',
 	REQUIRED_FIELDS: 'name,email',
-	SUCCESS_MESSAGE: process.env.SUCCESS_MESSAGE || 'Thank you, We have received your message',
+	SUCCESS_MESSAGE: process.env.SUCCESS_MESSAGE || 'Thank you. We have received your message',
 }
 
 const smtpConfig = {

@@ -98,16 +98,16 @@ export default function Opera() {
 							<div className={styles['opera-tile']}>
 								<h3><GlitchText>Kompositionen</GlitchText></h3>
 								<ScrollContent offset={twoColumnScrollOffset} bypass={isLrgDevice} style={fillWidth}>
-									{compositionsData.map((props, index) => (
-										<Opus key={index} {...props} />
+									{compositionsData.map((props, idx) => (
+										<Opus key={idx} {...props} />
 									))}
 								</ScrollContent>
 							</div>
 							<div className={styles['opera-tile']}>
 								<h3><GlitchText>Arrangements</GlitchText></h3>
 								<ScrollContent offset={twoColumnScrollOffset} bypass={isLrgDevice} style={fillWidth}>
-									{arrangementsData.map((props, index) => (
-										<Arrangement key={index} {...props} />
+									{arrangementsData.map((props, idx) => (
+										<Arrangement key={idx} {...props} />
 									))}
 								</ScrollContent>
 							</div>

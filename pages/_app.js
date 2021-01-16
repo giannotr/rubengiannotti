@@ -19,26 +19,20 @@ const topLevelRoutes = [
 
 const topLevelPaths = reduceRoutesArray(topLevelRoutes);
 
-// TODO: cookie alert (blog.rubengiannotti, widgets:sc, spotify, youtube, instagram, recaptcha => all non sensible data(?))
-// TODO (before final deploy): check unused utilities, hooks, etc.
-// TODO (before final deploy): `npx depcheck`
 // [TODO]: add about me page (weave in press statements) w/ discography
 // [TODO]: architecture + design for blog and dev page
 // [TODO]: add blog.rubengiannotti.com (design replica => https://www.designembraced.com/)
 // [TODO]: add link to blog in navigation
+// [TODO]: cookie alert (blog.rubengiannotti, widgets:sc, spotify, youtube, instagram, recaptcha => all non sensible data(?))
 // [TODO]: add dev.rubengiannotti.com (design replica => https://www.dhm.de/ + https://codepen.io/ReGGae/full/bmyYEj)
-// [TODO]: host the entire node backend on netlify (not GCP)
 // [TODO]: check titles <Head>s for all \pages and other customisation factors
-// [TODO]: add /admin (management tool for... available lesson dates, contact form messages, text content, component design[?])
 // [TODO]: SEO audit
-// [TODO]: all rerouting in _app.js useEffect[router.pathname] (navigate?) = one single point of truth / action
 // [TODO]: i18n?
-// [TODO]: bem-ify css classes
 // [TODO]: abstract colors and animations into global css modules (for `import`s)
 // [TODO]: check if null-safe property access is possible instead of data ? data.prop : [] or data.hasOwnProperty...
-// [TODO]: refactor (out) all needless idx's in .map's => simpleHash(...)
 // [TODO]: refactor all conditional classes into react-transition-group
-// [TODO]: check if all components have prop types
+// [TODO]: check if all components with props have prop types
+// [TODO]: add /admin (management tool for... available lesson dates, contact form messages, text content, component design[?])
 // [OPT]: check if target route is loaded before showing it
 // => https://stackoverflow.com/questions/55624695/loading-screen-on-next-js-page-transition
 export default function App({ Component, pageProps }) {

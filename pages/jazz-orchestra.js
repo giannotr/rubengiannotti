@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
+import simpleHash from '../utility/simple-hash';
 import getClassNames from '../utility/get-class-names';
 import useRefs from '../hooks/use-refs';
 import useWindowSize from '../hooks/use-window-size';
@@ -199,9 +200,9 @@ const Images = props => {
 		<>
 			<div className={styles['one-column']}>
 				<div className={styles['img-grid']}>
-					{imgGridContent.map((src, idx) =>
+					{imgGridContent.map(src =>
 						<div
-							key={idx}
+							key={simpleHash(src)}
 							className={styles['img-grid__item']}
 							onClick={() => handleClickImg(idx)}
 							{...genImgStyle(src)}
@@ -227,9 +228,9 @@ const Images = props => {
 					leftChevron={<ChevronLeft />}
 					rightChevron={<ChevronRight />}
 				>
-					{imgCarouselContent.map((src, idx) =>
+					{imgCarouselContent.map(src =>
 						<div
-							key={idx}
+							key={simpleHash(src)}
 							className={styles['img-carousel__item']}
 							{...genImgStyle(src)}
 						/>

@@ -2,6 +2,7 @@ import { useRef, useMemo, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import TypeInsurance from 'type-insurance';
+import simpleHash from '../../utility/simple-hash';
 import mod from '../../utility/mod';
 import getClassNames from '../../utility/get-class-names';
 import { useSwipeable } from 'react-swipeable';
@@ -14,6 +15,7 @@ import Loader from '../loader/loader';
 import Triangle from '../../assets/icons/triangle.svg';
 import Arrow from '../../assets/icons/arrow.svg';
 import styles from './calendar.module.scss';
+import simpleHash from '../../utility/simple-hash';
 
 const transitionDuration = parseInt(styles.transitionDuration, 10);
 
@@ -211,8 +213,8 @@ function AvailableTimes({ timesArray, timesRendered, currentValue, setter }) {
 	return(
 		<>
 			<div className={styles['calendar__form__scroll']}>
-				{timesRendered && timesArray.map((time, idx) => (
-					<label key={idx} className={styles['calendar__radio__container']}>
+				{timesRendered && timesArray.map(time => (
+					<label key={simpleHash(time)} className={styles['calendar__radio__container']}>
 						<Field
 							id={idx}
 							type="radio"
@@ -400,7 +402,7 @@ export default function Calendar({ schedule }) {
 			>
 				<Triangle />
 			</div>
-			{weekDayShorthands.map(shorthand => <CalendarHead key={shorthand} content={shorthand} />)}
+			{weekDayShorthands.map(shorthand => <CalendarHead key={simpleHash(shorthand)} content={shorthand} />)}
 			{[...Array(42).keys()].map(idx => {
 				if(idx < offset || idx > getMonthDaysAmount(month, year) + offset - 1) {
 					return <div key={idx} className={getClassNames(['calendar__cell', 'calendar__cell--empty'], styles)} />

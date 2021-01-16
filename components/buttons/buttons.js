@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { omit } from 'lodash';
 import ReCAPTCHA from 'react-google-recaptcha';
+import simpleHash from '../../utility/simple-hash';
 import { targetBlank } from '../../utility/base-styles';
 import Triangle from '../../assets/icons/triangle.svg';
 import styles from './buttons.module.scss';
@@ -19,8 +20,8 @@ export function Button(props) {
 
 	const tgt = target ? { target, rel } : {...targetBlank}
 
-	const splitText = extractTextContent(children).split('').map((char, idx) => (
-		<span key={idx} style={{animationDelay: `${Math.random() + .25}s`}}>{char}</span>
+	const splitText = extractTextContent(children).split('').map(char => (
+		<span key={simpleHash(char)} style={{animationDelay: `${Math.random() + .25}s`}}>{char}</span>
 	));
 
 	const innerText = href ? <a href={href} {...tgt}>{splitText}</a> : splitText;

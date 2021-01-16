@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import Head from 'next/head';
 //import Link  from 'next/link';
 import axios from 'axios';
-import getClassNames from '../utility/get-class-names';
-//import isProduction from '../utility/is-production';
 import * as Yup from 'yup';
+import getClassNames from '../utility/get-class-names';
+import { fullSize } from '../utility/base-styles';
+//import isProduction from '../utility/is-production';
 import { Formik, Form, Field } from 'formik';
 import ErrorDisplay from '../components/error-display/error-display';
 import { SubmitButtonWithCaptcha } from '../components/buttons/buttons';
@@ -13,7 +14,6 @@ import { Wrapper, Content, PadContent } from '../components/containers/container
 import SectionHeading from '../components/section-heading/section-heading';
 import Loader from '../components/loader/loader';
 import SocialIcons from '../components/social-icons/social-icons';
-import { fullSize } from '../utility/base-styles';
 import styles from './route-styles/contact.module.scss';
 
 const RECAPTCHA_PUBLIC = process.env.RECAPTCHA_PUBLIC;

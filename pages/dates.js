@@ -1,5 +1,6 @@
 import React, { useState, useRef, Fragment } from 'react';
 import Head from 'next/head';
+import simpleHash from '../utility/simple-hash';
 import getClassNames from '../utility/get-class-names';
 import { targetBlank } from '../utility/base-styles';
 import { Wrapper, Content, PadContent, ScrollContent } from '../components/containers/containers';
@@ -101,13 +102,13 @@ export default function Dates() {
 					<div ref={scrollable}>
 						<ScrollContent offset={scrollablaOffset} style={marginLeft}>
 							<div className={styles['table']} style={tableSty}>
-								{data.map((gig, idx) => {
+								{data.map(gig => {
 									const { datetime } = gig;
 									const datetimeObj = new Date(datetime);
 									const rowProps = { datetimeObj, ...gig };
 									if(idx <= tableLength) {
 										return(
-											<Row key={idx} {...rowProps} />
+											<Row key={simpleHash(datetime)} {...rowProps} />
 										);
 									} else {
 										return <Fragment key={idx} />;
