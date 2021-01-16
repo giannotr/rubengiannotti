@@ -15,7 +15,6 @@ import Loader from '../loader/loader';
 import Triangle from '../../assets/icons/triangle.svg';
 import Arrow from '../../assets/icons/arrow.svg';
 import styles from './calendar.module.scss';
-import simpleHash from '../../utility/simple-hash';
 
 const transitionDuration = parseInt(styles.transitionDuration, 10);
 
