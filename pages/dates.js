@@ -1,6 +1,5 @@
 import React, { useState, useRef, Fragment } from 'react';
 import Head from 'next/head';
-import simpleHash from '../utility/simple-hash';
 import getClassNames from '../utility/get-class-names';
 import { targetBlank } from '../utility/base-styles';
 import { Wrapper, Content, PadContent, ScrollContent } from '../components/containers/containers';
