@@ -153,7 +153,7 @@ export default function Contact() {
 								Nehmen Sie dazu gerne ebenfalls über die Form Kontakt mit mir auf
 								oder nutzen Sie speziell für Online-Unterricht mein&nbsp;
 								<a href="/lessons" data-content="Buchungssystem">Buchungssystem</a>.
-								In den sozialen Medien beantowrte ich auch allgemeinere Fragen.
+								In den sozialen Medien beantworte ich auch allgemeinere Fragen.
 								<div style={{margin: '15px 0 0 0'}}><SocialIcons /></div>
 							</div>
 						</div>

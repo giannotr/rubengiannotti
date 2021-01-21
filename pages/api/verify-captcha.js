@@ -14,8 +14,6 @@ function verifyCaptcha(data, ip, res) {
 		})
 	}`;
 
-	console.log(endpoint);
-
 	if(data['g-recaptcha-response'] === undefined || data['g-recaptcha-response'] === '' || data['g-recaptcha-response'] === null) {
 		return res.status(200).send(JSON.stringify({
 			success: false,
